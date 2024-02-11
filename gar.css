@@ -1,0 +1,100 @@
+button{
+    height: 100px;
+    width:100px;
+    background-image:
+    linear-gradient(
+        rgb(112, 210, 66),
+        rgb(49, 243, 250));
+    
+    border-radius: 50%;
+    position:absolute;
+    top:20%;
+    left:27%;
+    transform: translate(-50%);
+    font-size: 80px;
+    border: 4px solid rgb(159, 154, 154);
+}
+
+body{
+    height:100vh;
+    background-color: black;
+    background-image: url("https://4kwallpapers.com/images/wallpapers/neon-background-2560x1440-12508.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.a1
+{
+    margin-left: 23.5%;
+    
+}
+
+.a2{
+    margin-left: 46%;    
+}
+
+
+#b5,#b6,#b4{
+    margin-top: 135px;
+}
+
+#b8,#b9,#b7{
+    margin-top: 270px;
+}
+
+#b0,#bs,#br{
+    margin-top: 405px;
+}
+
+#num{
+    text-align: center;
+    font-size: 50px;
+    margin-top: auto;
+}
+
+
+#bt{
+    position:absolute;
+    top: 36px;
+    width: 400px;
+    height: 60px;
+    background-image: 
+        linear-gradient(
+            rgb(159, 222, 246),
+            rgb(247, 134, 134));
+    border-radius: 50px;
+    left:50%;
+    transform: translate(-50%);
+    opacity: 0.8;  
+}
+
+#br,#bs{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    position:absolute;
+    top:20%;
+    left:27%;
+    transform: translate(-50%);
+    font-size: 80px;
+    border: 4px solid rgb(159, 154, 154);
+}
+
+#br{
+    background-image: 
+    linear-gradient(
+        rgb(255, 55, 55),
+        rgb(250, 180, 49));
+    
+}
+
+#bs{
+    background-image: 
+    linear-gradient(
+        rgb(182, 255, 55),
+        rgb(49, 250, 52));
+       
+}
+
+

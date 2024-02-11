@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gar.css">
+    <style>
+        .fullscreen-img {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function lol(nigga){
+            var gaybgh = document.getElementById('num').textContent;
+            var tahhan = gaybgh + nigga;
+            document.getElementById('num').textContent = tahhan;
+        }
+
+        function deleteCharacter() {
+            var currentNum = document.getElementById('num').textContent;
+            var updatedNum = currentNum.slice(0, -1); 
+            document.getElementById('num').textContent = updatedNum;
+        }
+
+        function mf() {
+            var gaybgh = document.getElementById('num').textContent;
+            showFullscreenImage(gaybgh);
+        }
+
+        function showFullscreenImage(condition) {
+            var fullscreenImgs = document.getElementsByClassName('fullscreen-img');
+
+            for (var i = 0; i < fullscreenImgs.length; i++) {
+                fullscreenImgs[i].style.display = 'none';
+            }
+
+            if (condition === '44417693') {
+                document.getElementById('image1').style.display = 'block';
+            } else if (condition === '51875737') {
+                document.getElementById('image2').style.display = 'block';
+            } else if (condition === '50465588') {
+                document.getElementById('image3').style.display = 'block';
+            } else if (condition === '26690905') {
+                document.getElementById('image4').style.display = 'block';
+            }
+
+            if (document.fullscreenElement) {
+                document.fullscreenElement.requestFullscreen();
+            }
+        }
+    </script>
+
+    <div id="bt">
+        <p id="num"></p>
+    </div>
+    
+    <form></form>
+
+    <button class="a1" id="b5" onclick="lol('5')">5</button>
+    <button class="a1" id="b8" onclick="lol('8')">8</button>
+    <button class="a1" id="b0" onclick="lol('0')">0</button>
+    <button class="a1" id="b2" onclick="lol('2')">2</button>
+    <button class="a2" id="b6" onclick="lol('6')">6</button>
+    <button class="a2" id="b9" onclick="lol('9')">9</button>
+    <button class="a2" id="b3" onclick="lol('3')">3</button>
+    <button class="a3" id="b4" onclick="lol('4')">4</button>
+    <button class="a3" id="b1" onclick="lol('1')">1</button>
+    <button class="a3" id="b7" onclick="lol('7')">7</button>
+    
+    <button id="bs" class="a3" value="K" onclick="mf()">K</button>
+    
+    <button id="br" class="a2" value="D" onclick="deleteCharacter()">R</button>
+    
+    <img id="image1" class="fullscreen-img" src="ali.jpeg" alt="Fullscreen Image 1">
+    <img id="image2" class="fullscreen-img" src="bgh.jpeg" alt="Fullscreen Image 2">
+    <img id="image3" class="fullscreen-img" src="yns.jpeg" alt="Fullscreen Image 3">
+    <img id="image4" class="fullscreen-img" src="yns2.jpg" alt="Fullscreen Image 4">
+
+</body>
+</html>
